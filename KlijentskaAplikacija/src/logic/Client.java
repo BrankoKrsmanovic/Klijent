@@ -47,7 +47,7 @@ public class Client implements Runnable {
 
 				if (input.startsWith("[KALKULACIJE]")) {
 					String kalkulacije[] = input.split("]");
-					//System.out.println(kalkulacije.length);
+					// System.out.println(kalkulacije.length);
 					if (kalkulacije.length > 1) {
 						String sveKalkulacije[] = kalkulacije[1].split("\t");
 						for (int i = 0; i < sveKalkulacije.length; i++)
